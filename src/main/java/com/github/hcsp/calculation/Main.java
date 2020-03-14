@@ -13,7 +13,6 @@ public class Main {
 //            b = "";
 //        }
 //        return a+b;
-        ArrayList<String> arrayList = new ArrayList<>();
         return a == null ? "" + (b == null ? "" : b): a + (b == null ? "" : b);
 
     }
